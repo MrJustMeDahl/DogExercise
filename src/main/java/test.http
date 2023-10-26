@@ -1,0 +1,9 @@
+GET http://localhost:7007/api/dogs
+###
+GET http://localhost:7007/api/dogs/2
+###
+POST http://localhost:7007/api/dogs/dog?name=Terry&breed=Cocker-Spaniel&gender=M&age=8
+###
+PUT http://localhost:7007/api/dogs/dog/1?name=Vildbassen
+###
+DELETE http://localhost:7007/api/dogs/dog/2
